@@ -37,7 +37,8 @@ Usage: #definition
 * action[=].code = $cpg-common-process#guideline-based-care
 * action[=].definitionCanonical = "http://hl7.org/fhir/uv/cpg/PlanDefinition/chf-lasix-recommendationdefinition"
 
-* action[+].title = "Cardiology Consultation"
-* action[=].description = "Cardiology Consultation within 24 hours"
-* action[=].code = $cpg-common-process#guideline-based-care
-* action[=].definitionCanonical = "http://hl7.org/fhir/uv/cpg/PlanDefinition/chf-cardiology-consultation-recommendationdefinition"
+* action[+]
+  * title = "Cardiology Consultation"
+  * description = "Cardiology Consultation within 24 hours"
+  * code = $cpg-common-process#guideline-based-care
+  * definitionCanonical = "http://hl7.org/fhir/uv/cpg/PlanDefinition/chf-cardiology-consultation-recommendationdefinition"

@@ -10,6 +10,7 @@ Alias: $cpg-computablelibrary = http://hl7.org/fhir/uv/cpg/StructureDefinition/c
 Alias: $cpg-pathwaydefinition = http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-pathwaydefinition
 Alias: $cpg-recommendationdefinition = http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-recommendationdefinition
 Alias: $cpg-strategydefinition = http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-strategydefinition
+Alias: $cpg-task = http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-task
 
 Alias: $sct = http://snomed.info/sct
 Alias: $m49.htm = http://unstats.un.org/unsd/methods/m49/m49.htm

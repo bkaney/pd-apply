@@ -10,6 +10,8 @@ Usage: #definition
 * action[+].title = "Weight"
 * action[=].description = "Measure weight daily"
 * action[=].code = $cpg-common-process#diagnostic-testing
+* action[=].input.profile = Canonical(CaseFeatureDefinition1)
+* action[=].input.type = #Observation
 * action[=].definitionCanonical = "http://hl7.org/fhir/uv/cpg/PlanDefinition/chf-bodyweight-recommendationdefinition"
 
 * action[+].title = "Weight Change"
